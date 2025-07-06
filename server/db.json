@@ -1,0 +1,52 @@
+{
+   
+    "movies": [
+        {
+            "id": "1",
+            "title": "Cantando bajo la lluvia",
+            "director": "Gene Kelly, Stanley Donen",
+            "description": "El ídolo del cine Don Lockwood pensaba que lo tenía todo en la vida: fama, fortuna y éxito hasta que conoce a la aspirante a actriz Kathy Selden. La joven y la llegada del cine sonoro revolucionarán la vida de Don."
+        },
+        {
+            "id": "2",
+            "title": "El gran showman",
+            "director": "Michael Gracey",
+            "description": "En el siglo XIX, P.T. Barnum es un visionario que surge de la nada y crea un fascinante espectáculo que se convertirá en una sensación mundial, el llamado Ringling Bros. and Barnum & Bailey Circus."
+        },
+        {
+            "id": "3",
+            "title": "Hairspray",
+            "director": "Adam Shankman",
+            "description": "En el Baltimore de los años sesenta, una adolescente se convierte en una celebridad nocturna después de ganar un puesto en un programa de baile local llamado The Corny Collins Show"
+        },
+        {
+            "id": "4", 
+            "title": "Si tuviera 30",
+            "director": "Gary Winik",
+            "description": "Por su trece cumpleaños, todo lo que Jenna Rink desea es ser guapa y popular. Tras una experiencia humillante con un grupo de chicas delante del chico más popular de la escuela, Jenna hace un deseo desesperado por tener una nueva vida."
+            
+        },
+    {
+            "id": "4", 
+            "title": "Si tuviera 30",
+            "director": "Gary Winik",
+            "description": "Por su trece cumpleaños, todo lo que Jenna Rink desea es ser guapa y popular. Tras una experiencia humillante con un grupo de chicas delante del chico más popular de la escuela, Jenna hace un deseo desesperado por tener una nueva vida."
+            
+        },
+    {
+            "id": "5", 
+            "title": "Legalmente Rubia",
+            "director": "Robert Luketic",
+            "description": "Elle Woods es una rubia muy popular, buena estudiante, presidenta de su hermandad y Miss Junio en el calendario de la universidad. Disfruta de una vida maravillosa pero todo se derrumba cuando su novio rompe con ella por ser demasiado rubia y poco formal para su futura carrera en el mundo de la política."
+            
+        },
+        {
+            "id": "6", 
+            "title": "La colina de las amapolas",
+            "director": "Gorō Miyazaki",
+            "description": "Los adolescentes Umi y Shun luchan por preservar un antiguo edificio que será demolido debido a los Juegos Olímpicos de Tokio."
+            
+        }
+    
+    ]
+        }
