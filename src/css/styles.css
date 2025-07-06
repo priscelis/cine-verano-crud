@@ -1,5 +1,6 @@
 *{    
     background-color: #F5E1C0;
+    height: auto;
 }
 
 body{
@@ -14,19 +15,24 @@ body{
     display: flex;
    justify-content: right;
    align-items: center;
+   position:sticky;
+   font-family: 'Roboto', sans-serif;
 }
 
 .nav-h1{
     background-color: #7b2e2e;
     color: white; 
-    padding-right: 20px;
+    padding-right: 150px;
     font-size: 40px;
-
+    height: 35px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
 }
 
 .nav-link{
     background-color: #7b2e2e;
     text-decoration: none;
+    height: 100px;
 }
 
  /*Caja de comentario*/
@@ -62,7 +68,7 @@ body{
     align-items: center;
     border-radius: 30px;
 }
-.movie-name{
+#movie-name{
     background-color: #ffffff;
     border: #ffffff;
     height: 80px;
@@ -83,6 +89,8 @@ body{
     border-radius: 10px;
     border: 0px;
     font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
 }
 
 .button2{ /*El de agregar*/
@@ -93,6 +101,8 @@ body{
     border: 0px;
     font-size: 30px;
     color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
 }
 
 /*Footer*/
