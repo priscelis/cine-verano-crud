@@ -2,24 +2,25 @@
     background-color: #F5E1C0;
 }
 
+body{
+    margin: 0 auto;
+}
+
 /*Diseño del nav-bar*/
 .nav-bar{
     width: auto;
-    height: 100px;
-    padding-top: 0;
-
+    height: 150px;
     background-color: #7b2e2e;
     display: flex;
    justify-content: right;
    align-items: center;
-
-
 }
 
 .nav-h1{
     background-color: #7b2e2e;
     color: white; 
     padding-right: 20px;
+    font-size: 40px;
 
 }
 
@@ -28,14 +29,91 @@
     text-decoration: none;
 }
 
+ /*Caja de comentario*/
+ 
+ .position1{ /*DE la informacion (in)necesaria (decoracion)*/
+    display: flex;
+    justify-content: center;
+ }
+
 .information{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 40rem;
-
+    text-align: center;
+    width: 55rem;
     border: 3px solid black;
-    margin-top: 80px;
-   
+    margin-top: 1%;
+    border-radius: 10px;
+    font-size: 30px;
+}
 
+/*Caja de buscar*/
+.position2{ /*para mover cosas dentro de la search-bar*/
+    display:flex;
+    justify-content: center;
+    
+}
+.search-bar{
+    background-color: #E0D9C3;
+    height: 120px;
+    width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.movie-name{
+    background-color: #ffffff;
+    border: #ffffff;
+    height: 80px;
+    border-radius: 5px;
+    width: 1200px;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+/*Botones de la search-bar*/
+
+.button1{ /*El de buscar*/
+    height: 80px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: #D95D39;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 30px;
+}
+
+.button2{ /*El de agregar*/
+    height: 80px;
+    width: 200px;
+    background-color: #3E9C34;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/*Footer*/
+.position3{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.info-footer{
+    background-color: #7b2e2e;
+}
+
+.footer-sentence{
+    background-color: #7b2e2e;
+    height: 80px;
+    color: #ffffff;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
 }
