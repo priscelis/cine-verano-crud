@@ -1,0 +1,41 @@
+*{    
+    background-color: #F5E1C0;
+}
+
+/*Diseño del nav-bar*/
+.nav-bar{
+    width: auto;
+    height: 100px;
+    padding-top: 0;
+
+    background-color: #7b2e2e;
+    display: flex;
+   justify-content: right;
+   align-items: center;
+
+
+}
+
+.nav-h1{
+    background-color: #7b2e2e;
+    color: white; 
+    padding-right: 20px;
+
+}
+
+.nav-link{
+    background-color: #7b2e2e;
+    text-decoration: none;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+
+    border: 3px solid black;
+    margin-top: 80px;
+   
+
+}
