@@ -79,7 +79,7 @@ async function printMovies() {
             <p class="description-movie"><span>Descripción:</span> ${movie.description}</p>
             <div class="btn-delete-update">
             <a class="btns btn-delete" onclick="deleteMovie('${movie.id}')">Borrar</a>
-            <a href="pages/update.html" class="btns btn-update" onclick="updateMovie('${movie.id}')">Editar</a>
+            <a href="pages/update.html" class="btns btn-update" onclick="setMovieToEdit('${movie.id}')">Editar</a>
             </div>
             </div>`
     }).join("")
