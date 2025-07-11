@@ -12,7 +12,7 @@ section{
     align-items: center;
 }
 
-#formulario{
+#formulario-update{
     background-color: #F5E1C0;
     width: 400px;
     height: 400px;
@@ -23,11 +23,6 @@ section{
     flex-wrap: wrap;
 }
 
-.formulario{
-    display: flex;
-    justify-content: center;
-   
-}
 .titulo{
     font-size: 30px;
     display: flex;

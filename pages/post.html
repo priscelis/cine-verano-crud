@@ -29,16 +29,17 @@
         <!--Una caja que quise añadir como plus en el estilo-->
         <section class="cajaEditar">
         <form id="formulario" method="post">
-           <label for="titulo">Titulo: 
-            <input type="text" name="titulo" id="titulo" class="input-title" required>
-            </label><br>
-            <label for="director">Director
-            <input type="text" name="director" id="director" class="input-director" required> 
-        </label><br>
-           <label for="description"> Descripcion: 
-            <input type="text" name="description" id="agregarDescripcion" class="input-description" required>
-        </label>
+           <label for="titulo">Titulo: </label><br>
+            
+           <input type="text" name="titulo" id="titulo" class="input input-title" required>
+            
+            <label for="director">Director:</label><br>
+            <input type="text" name="director" id="director" class="input input-director" required> 
+        
+           <label for="description"> Descripcion: </label>
 
+            <textarea type="text" name="description" id="agregarDescripcion" class=" input input-description" required></textarea>
+        
             <button type="submit" id="btnAgregar">Agregar</button>
     </form>
     </section>
