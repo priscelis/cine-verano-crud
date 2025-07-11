@@ -1,0 +1,61 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 401;
+    font-style: normal;
+}
+
+section{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario{
+    background-color: #F5E1C0;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+   
+}
+.titulo{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    border: #ffffff;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+label{
+    font-size: 20px;
+   margin: 2px;
+}
+
+#btnEditar{
+    background-color:  #3E9C34;
+    color: #ffffff;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+}

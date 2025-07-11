@@ -6,45 +6,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@401&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <title>Movies App - Pris </title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Movies App </title>
 </head>
 <body>
-    
+    <main class="container">
     <nav class="nav-bar">
-        <a href="#" class="nav-link"><h1 class="nav-h1">Cine de Verano </h1></a>
+        <a href="#" class="nav-link"><h1 class="nav-h1">🎥Cine de Verano </h1></a>
     </nav>
-    <br>
-     <div class="position2">
-         <div class="search-bar">
-            <input type="text" id="movie-name" required> 
+    <section>
+        <div class="position2">
+            <div class="search-bar">
+                <h2 class="cartelera">🎬Cartelera</h2>
+                    
+                        <button class="watchmovie" onclick="printMovies()"> Ver peliculas</button> 
+                        <a href="pages/post.html" class="addmovie">Agregar Pelicula!</a>
                 
-                    <button class="button1"> Buscar peliculas</button> 
-                    <button class="button2"> Agregar peliculas </button>
-               
-         </div>
-    </div>
-    <!--Una caja que quise añadir como plus en el estilo-->
-    <div class="position1">
-        <div class="information"> <p>Esta es una lista personal de peliculas en la que podras actualizar, añadir
-            o borrar de tu lista
-        </p></div>
-    </div>
-    <br>
-    
+            </div>
+        </div>
+        <!--Una caja que quise añadir como plus en el estilo-->
+        <div class="position1">
+            <div class="information"> <p>Esta es una lista personal de peliculas en la que podras actualizar, añadir
+                o borrar de tu lista
+            </p></div>
+        </div>
+        <br>
+        <div class="position4">
+            <div class="cards">
+            <!--Aqui iria lo de las cartas-->
 
-
-<!--Footer-->
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
     <footer class="position3">
         <div class="info-footer">
             <p class="footer-sentence">
-<!-- No se si hay que poner los dos nombres o un solo nombre-->
-                Proyecto creado por Guissella Pérez (o Priscelis Codrington), grupo P4 Femcoders Factoria F5 <br>
+                Proyecto creado por Guissella Pérez y Priscelis Codrington, grupo P4 Femcoders Factoria F5 <br>
                 © 2025 Cine de Verano
             </p>
         </div>
     </footer>
- 
+ </main>
 
     
 

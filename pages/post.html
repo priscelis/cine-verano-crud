@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@401&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/post.css">
+    
+    <title>Agregar</title>
+</head>
+<body>
+  <main class="container">
+    <nav class="nav-bar">
+        <a href="../index.html" class="nav-link"><h1 class="nav-h1">🎥Cine de Verano </h1></a>
+    </nav>
+    <section>
+        <div class="position2">
+            <div class="search-bar">
+                <h2 class="cartelera">🎬Cartelera</h2>
+                    
+                        <a href="../index.html" class="watchmovie"> Ver Pelicula</a>
+                        <a href="post.html" class="addmovie">Agregar Pelicula!</a>
+                
+            </div>
+        </div>
+        <!--Una caja que quise añadir como plus en el estilo-->
+        <section class="cajaEditar">
+        <form id="formulario" method="post">
+           <label for="titulo">Titulo: 
+            <input type="text" name="titulo" id="titulo" class="input-title" required>
+            </label><br>
+            <label for="director">Director
+            <input type="text" name="director" id="director" class="input-director" required> 
+        </label><br>
+           <label for="description"> Descripcion: 
+            <input type="text" name="description" id="agregarDescripcion" class="input-description" required>
+        </label>
+
+            <button type="submit" id="btnAgregar">Agregar</button>
+    </form>
+    </section>
+    </section>
+    <!--Footer-->
+    <footer class="position3">
+        <div class="info-footer">
+            <p class="footer-sentence">
+    <!-- No se si hay que poner los dos nombres o un solo nombre-->
+                Proyecto creado por Guissella Pérez y Priscelis Codrington, grupo P4 Femcoders Factoria F5 <br>
+                © 2025 Cine de Verano
+            </p>
+        </div>
+    </footer>
+ </main>
+ <script src="../src/js/services.js"></script>
+</body>
+</html>
